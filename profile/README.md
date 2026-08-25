@@ -6,7 +6,7 @@ Search tweets, read profiles, paginate followers, and run approved account actio
 
 | Interface | Contract |
 | --- | --- |
-| REST API | 66 operations in the current SDK OpenAPI |
+| REST API | 66 operations in the current SDK OpenAPI (recheck [openapi.json](https://docs.twexapi.io/openapi.json)) |
 | OpenAPI | Schema at [docs.twexapi.io/openapi.json](https://docs.twexapi.io/openapi.json) |
 | MCP | Hosted catalog through `explore` and `twexapi_request` |
 | Authentication | `Authorization: Bearer` with `X_API_SCRAPER_KEY` |
@@ -23,11 +23,11 @@ Search tweets, read profiles, paginate followers, and run approved account actio
 
 | Task | Start here |
 | --- | --- |
-| Search tweets through an API | [Advanced search](https://docs.twexapi.io/api-reference/search/advanced-search-page) |
-| Read one tweet | [Tweet detail](https://docs.twexapi.io/api-reference/tweets/tweet-detail) |
+| Search tweets through an API | [Advanced search](https://docs.twexapi.io/api-reference/search/search-advanced) |
+| Read one tweet | [Tweet detail](https://docs.twexapi.io/api-reference/tweets/tweets-detail) |
 | Look up a profile | [User about](https://docs.twexapi.io/api-reference/users/users-get-about) |
 | Read a user timeline | [Timeline page](https://docs.twexapi.io/api-reference/timelines/timelines-user-page) |
-| Paginate followers | [Followers page](https://docs.twexapi.io/api-reference/followers/followers-page) |
+| Paginate followers | [Followers list](https://docs.twexapi.io/api-reference/followers/users-followers-list) |
 | Read trending tweets | [Global trending tweets](https://docs.twexapi.io/api-reference/trending/trending-tweets) |
 | Compare TwexAPI with the X API | [Twitter API alternatives](https://docs.twexapi.io/twitter-api-alternatives) |
 | Connect an AI agent safely | [TwexAPI Skills hub](https://github.com/twexapi-dev/x-api-scraper) |
@@ -62,6 +62,7 @@ Search tweets, read profiles, paginate followers, and run approved account actio
 ## Discovery
 
 - [Documentation](https://docs.twexapi.io)
+- [AI-readable docs](https://docs.twexapi.io/llms.txt)
 - [OpenAPI schema](https://docs.twexapi.io/openapi.json)
 - [Documentation source](https://github.com/twexapi-dev/x-api-scraper-docs)
 - [TypeScript API map](https://github.com/twexapi-dev/x-api-scraper-typescript/blob/main/api.md)

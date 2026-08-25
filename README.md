@@ -23,8 +23,9 @@ Public GitHub profile and community defaults for TwexAPI SDKs, docs, and agent i
 
 | Task | Start here |
 | --- | --- |
-| Search tweets through an API | [Advanced search](https://docs.twexapi.io/api-reference/search/advanced-search-page) |
-| Paginate followers | [Followers page](https://docs.twexapi.io/api-reference/followers/followers-page) |
+| Search tweets through an API | [Advanced search](https://docs.twexapi.io/api-reference/search/search-advanced) |
+| Export follower lists | [Follower export guide](https://docs.twexapi.io/guides/follower-export) |
+| Paginate followers | [Followers list](https://docs.twexapi.io/api-reference/followers/users-followers-list) |
 | Choose an SDK | [SDK directory](profile/README.md#sdks) |
 | Connect an AI agent | [Agent integrations](profile/README.md#agent-and-workflow-integrations) |
 | Review OpenSSF evidence | [OpenSSF evidence register](OPENSSF.md) |
