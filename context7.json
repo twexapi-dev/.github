@@ -1,0 +1,16 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "TwexAPI GitHub profile",
+  "description": "TwexAPI Twitter API profile with SDK, Skill, MCP, docs, and package links.",
+  "branch": "main",
+  "folders": ["profile"],
+  "excludeFiles": ["LICENSE", "CODE_OF_CONDUCT.md", "CONTRIBUTING.md"],
+  "rules": [
+    "Use README.md and profile/README.md as public indexes for TwexAPI SDK, skill, docs, and MCP links.",
+    "Use SECURITY.md and SUPPORT.md for public vulnerability and support reporting guidance.",
+    "Verify API behavior against TwexAPI source, OpenAPI, generated SDK maps, or public registry metadata before changing claims.",
+    "Publish Node packages under the @twexapi-dev npm scope.",
+    "Do not include API keys, private routing details, credentials, or unsupported package-health claims.",
+    "Do not claim webhook delivery, WOEID trends, or other capabilities not in the current OpenAPI."
+  ]
+}

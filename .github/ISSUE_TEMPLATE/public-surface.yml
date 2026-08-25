@@ -1,0 +1,55 @@
+# SPDX-FileCopyrightText: 2026 TwexAPI Contributors
+# SPDX-License-Identifier: MIT
+
+name: Public SDK, docs, or package issue
+description: Report a public SDK, docs, skill, plugin, package, or example issue.
+title: "[public-surface] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for public SDK, docs, skill, plugin, example, and package issues.
+        Never include credentials, cookies, private data, or private routing details.
+        Use the private security report path for suspected vulnerabilities.
+  - type: input
+    id: surface
+    attributes:
+      label: Affected project
+      description: Name the repository, package, docs page, Skill, plugin, or example.
+      placeholder: twexapi-dev/x-api-scraper-python, docs.twexapi.io/sdks/python, npm @twexapi-dev/x-api-scraper
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or reference
+      description: Package version, commit SHA, docs URL, or registry page.
+      placeholder: 0.1.3, main, https://docs.twexapi.io/sdks/typescript
+    validations:
+      required: false
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Describe the public issue and where it appears.
+      placeholder: The install example fails because...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Minimal public steps, command, request shape, or code snippet.
+      placeholder: |
+        1. Install package version ...
+        2. Run ...
+        3. See ...
+    validations:
+      required: false
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+      description: What should happen instead?
+    validations:
+      required: false
