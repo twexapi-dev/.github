@@ -6,7 +6,7 @@ Search tweets, read profiles, paginate followers, and run approved account actio
 
 | Interface | Contract |
 | --- | --- |
-| REST API | 66 operations in the current SDK OpenAPI (recheck [openapi.json](https://docs.twexapi.io/openapi.json)) |
+| REST API | Current operation count in [openapi.json](https://docs.twexapi.io/openapi.json) |
 | OpenAPI | Schema at [docs.twexapi.io/openapi.json](https://docs.twexapi.io/openapi.json) |
 | MCP | Hosted catalog through `explore` and `twexapi_request` |
 | Authentication | `Authorization: Bearer` with `X_API_SCRAPER_KEY` |
@@ -14,22 +14,22 @@ Search tweets, read profiles, paginate followers, and run approved account actio
 
 ## Start
 
-1. Read the [API overview](https://docs.twexapi.io/api-reference/overview).
+1. Read the [API overview](https://docs.twexapi.io/index.md).
 2. Create an API key in the [TwexAPI dashboard](https://twexapi.io/dashboard).
 3. Pick an SDK or integration below.
-4. Use the [MCP guide](https://docs.twexapi.io/mcp/overview) for agents.
+4. Use the [MCP guide](https://docs.twexapi.io/mcp/overview.md) for agents.
 
 ## Choose a Task
 
 | Task | Start here |
 | --- | --- |
-| Search tweets through an API | [Advanced search](https://docs.twexapi.io/api-reference/search/search-advanced) |
-| Read one tweet | [Tweet detail](https://docs.twexapi.io/api-reference/tweets/tweets-detail) |
-| Look up a profile | [User about](https://docs.twexapi.io/api-reference/users/users-get-about) |
-| Read a user timeline | [Timeline page](https://docs.twexapi.io/api-reference/timelines/timelines-user-page) |
-| Paginate followers | [Followers list](https://docs.twexapi.io/api-reference/followers/users-followers-list) |
-| Read trending tweets | [Global trending tweets](https://docs.twexapi.io/api-reference/trending/trending-tweets) |
-| Compare TwexAPI with the X API | [Twitter API alternatives](https://docs.twexapi.io/twitter-api-alternatives) |
+| Search tweets through an API | [Advanced search by page](https://docs.twexapi.io/api-reference/search-endpoints/advanced-twitter-search-by-page.md) |
+| Read one tweet | [Tweet detail](https://docs.twexapi.io/api-reference/tweets-endpoints/get-tweet-detail-v2.md) |
+| Look up a profile | [User about](https://docs.twexapi.io/api-reference/twitter-user-about-endpoints/get-twitter-user-about-by-screen-name.md) |
+| Read a user timeline | [Timeline page](https://docs.twexapi.io/api-reference/timeline-endpoints/get-user-timeline-by-page.md) |
+| Paginate followers | [Followers by page](https://docs.twexapi.io/api-reference/followers-&-following-endpoints/get-followers-by-page.md) |
+| Read trending tweets | [Global trending tweets](https://docs.twexapi.io/api-reference/trending-endpoints/get-global-trending-tweets.md) |
+| Compare TwexAPI with the X API | [Documentation home](https://docs.twexapi.io/index.md) |
 | Connect an AI agent safely | [TwexAPI Skills hub](https://github.com/twexapi-dev/x-api-scraper) |
 
 ## SDKs
