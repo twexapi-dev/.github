@@ -1,6 +1,8 @@
-# TwexAPI Twitter API Tools
+# TwexAPI Developer Tools
 
-Search tweets, read profiles, paginate followers, and run approved account actions with TwexAPI.
+> TwexAPI is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp.
+
+Access structured public social data and approved account workflows through REST, SDKs, MCP, CLI tools, and integrations.
 
 ## Public contract
 
@@ -23,13 +25,13 @@ Search tweets, read profiles, paginate followers, and run approved account actio
 
 | Task | Start here |
 | --- | --- |
-| Search tweets through an API | [Advanced search by page](https://docs.twexapi.io/api-reference/search-endpoints/advanced-twitter-search-by-page.md) |
-| Read one tweet | [Tweet detail](https://docs.twexapi.io/api-reference/tweets-endpoints/get-tweet-detail-v2.md) |
+| Search public posts through an API | [Advanced search by page](https://docs.twexapi.io/api-reference/search-endpoints/advanced-twitter-search-by-page.md) |
+| Read one public post | [Tweet detail](https://docs.twexapi.io/api-reference/tweets-endpoints/get-tweet-detail-v2.md) |
 | Look up a profile | [User about](https://docs.twexapi.io/api-reference/twitter-user-about-endpoints/get-twitter-user-about-by-screen-name.md) |
 | Read a user timeline | [Timeline page](https://docs.twexapi.io/api-reference/timeline-endpoints/get-user-timeline-by-page.md) |
 | Paginate followers | [Followers by page](https://docs.twexapi.io/api-reference/followers-&-following-endpoints/get-followers-by-page.md) |
-| Read trending tweets | [Global trending tweets](https://docs.twexapi.io/api-reference/trending-endpoints/get-global-trending-tweets.md) |
-| Compare TwexAPI with the X API | [Documentation home](https://docs.twexapi.io/index.md) |
+| Read trending public posts | [Global trending tweets](https://docs.twexapi.io/api-reference/trending-endpoints/get-global-trending-tweets.md) |
+| Compare API options | [Documentation home](https://docs.twexapi.io/index.md) |
 | Connect an AI agent safely | [TwexAPI Skills hub](https://github.com/twexapi-dev/x-api-scraper) |
 
 ## SDKs

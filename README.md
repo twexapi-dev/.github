@@ -1,9 +1,9 @@
-# TwexAPI APIs, SDKs & Agent Tools
+# TwexAPI Developer Tools
 
 > **TwexAPI is an independent third-party service.** Not affiliated with X Corp.
 > "Twitter" and "X" are trademarks of X Corp.
 
-Public GitHub profile and community defaults for TwexAPI SDKs, docs, and agent integrations.
+Public GitHub profile and community defaults for TwexAPI APIs, SDKs, docs, and agent integrations.
 
 - Org profile: [profile/README.md](profile/README.md)
 - Agent hub: [twexapi-dev/x-api-scraper](https://github.com/twexapi-dev/x-api-scraper)
@@ -23,7 +23,7 @@ Public GitHub profile and community defaults for TwexAPI SDKs, docs, and agent i
 
 | Task | Start here |
 | --- | --- |
-| Search tweets through an API | [Advanced search by page](https://docs.twexapi.io/api-reference/search-endpoints/advanced-twitter-search-by-page.md) |
+| Search public posts through an API | [Advanced search by page](https://docs.twexapi.io/api-reference/search-endpoints/advanced-twitter-search-by-page.md) |
 | Paginate followers | [Followers by page](https://docs.twexapi.io/api-reference/followers-&-following-endpoints/get-followers-by-page.md) |
 | Choose an SDK | [SDK directory](profile/README.md#sdks) |
 | Connect an AI agent | [Agent integrations](profile/README.md#agent-and-workflow-integrations) |
