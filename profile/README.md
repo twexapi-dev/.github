@@ -1,13 +1,8 @@
 # TwexAPI Developer Tools
 
-<<<<<<< HEAD
 > TwexAPI is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp.
 
-Access structured public social data and approved account workflows through REST, SDKs, MCP, CLI tools, and integrations.
-=======
-Search tweets, read profiles, paginate followers, and pull structured X data with TwexAPI.
->>>>>>> 5db363a (Remove write and cookie claims from org profile copy.)
-
+Access structured public social data through REST, SDKs, MCP, CLI tools, and integrations.
 ## Public contract
 
 | Interface | Contract |
