@@ -40,7 +40,7 @@ Each public README should include:
 Use customer language where it clarifies a real supported task.
 
 Examples include tweet search, profile timelines, follower pagination,
-trending tweets, and approved account actions.
+and trending tweets.
 
 Map questions to exact routes, commands, methods, or components.
 
